@@ -1,8 +1,8 @@
 import FeedbackItem from "./FeedbackItem";
-import Spinner from "./Spinner";
+import Spinner from "../Spinner";
 
-import ErrorMessage from "./ErrorMessage";
-import { TFeedbackItem } from "../lib/types";
+import ErrorMessage from "../ErrorMessage";
+import { TFeedbackItem } from "../../lib/types";
 type FeedbackListProps = {
   isLoading: boolean;
   errorMessage: string;
